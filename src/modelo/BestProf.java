@@ -20,7 +20,7 @@ public class BestProf {
 		double promedio = 0;
 
 		if (estudiante == null) {
-			throw new Exception("No hay estudiantes en el sistema");
+			throw new Exception("No hay estudiantes en el sistema. MSG Enviado desde BestProf");
 		}
 		ArrayList<Curso> cursos = estudiante.darCursos();
 

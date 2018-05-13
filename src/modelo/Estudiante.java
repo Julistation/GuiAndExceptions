@@ -71,7 +71,7 @@ public class Estudiante {
 	
 	public void agregarCurso(Curso curso) throws Exception{
 		if (seBusca(curso.darNombre())) {
-			throw new Exception("El curso que intenta ingresar ya existe");
+			throw new Exception("El curso que intenta ingresar ya existe. MSG Desde la Class Estudiante en el modelo");
 		}
 		else {
 			cursos.add(curso);
